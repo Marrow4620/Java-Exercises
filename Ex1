@@ -1,3 +1,16 @@
+
+
+    /**
+     * 
+Create a program that verifies if you are eligible to be licensed as a driver.You can obtain a driver's license if:
+• You pass the psychotechnical examination,
+AND
+• You pass the legislation examination,
+AND
+• You pass the driving examination. If you fail to meet any of these requirements, you do not pass.
+     * @param args
+     */
+
 import java.util.Scanner;
 
 public class Exs {
