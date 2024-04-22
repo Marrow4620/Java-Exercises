@@ -1,0 +1,29 @@
+import java.util.Scanner;
+
+public class Exs {
+
+   
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Você foi aprova no psicotécnico? 1.Sim e 2.Não");
+        int psico = scanner.nextInt();
+        if (psico == 1 ) {
+            System.out.println("Você foi aprova no lesgilação? 1.Sim e 2.Não");
+        int legis = scanner.nextInt();
+            if (legis == 1){
+                System.out.println("Você foi aprovado na direção? 1.Sim e 2.Não");
+        int dire = scanner.nextInt();
+            if (dire == 1){
+                System.out.println("Você foi aprovado");
+            }else{
+                System.out.println("Você não passou");
+            }
+            }else{
+                System.out.println("Você não passou");
+            }  
+        }else{
+                System.out.println("Você não passou");
+        }
+    }
+    
+}
