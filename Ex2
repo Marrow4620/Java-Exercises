@@ -1,0 +1,24 @@
+public class JavaApplication15 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Quais foram as suas notas");
+        int nota1 = scanner.nextInt();
+        int nota2 = scanner.nextInt();
+        int nota3 = scanner.nextInt();
+
+        int media = (nota1+nota2+nota3)/3;
+        
+        if (media >= 7) {
+    System.out.println("Você passou, sua média foi: "+ media);
+    } else if (media >= 5) {
+    System.out.println("Você está de recuperação, sua média foi: "+ media);
+} else {
+    System.out.println("Você repetiu de ano, sua média foi:" + media);
+}
+
+    }
+}
